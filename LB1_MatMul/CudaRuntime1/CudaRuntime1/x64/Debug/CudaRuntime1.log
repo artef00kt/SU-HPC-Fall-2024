@@ -1,0 +1,93 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\x64\Debug\kernel.cu.obj "F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu" 
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(145): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(152): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(158): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(164): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(171): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(177): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(145): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(152): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(158): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(164): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(171): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(177): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 183)
+              variable "numBlocks" (declared at line 184)
+            goto Error;
+            ^
+  
+  kernel.cu
+  tmpxft_00002598_00000000-7_kernel.cudafe1.cpp
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(117): warning C4018: <: несоответствие типов со знаком и без знака
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(118): warning C4018: <: несоответствие типов со знаком и без знака
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(120): warning C4018: <: несоответствие типов со знаком и без знака
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(184): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(184): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(184): warning C4533: пропуск инициализации "numBlocks" из-за перехода "goto Error"
+  F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(184): note:  см. объявление "numBlocks"
+  F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(215): note:  см. объявление "Error"
+F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(183): warning C4533: пропуск инициализации "threadsPerBlock" из-за перехода "goto Error"
+  F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(183): note:  см. объявление "threadsPerBlock"
+  F:\Stud\cuda\lb1\CudaRuntime1\CudaRuntime1\kernel.cu(215): note:  см. объявление "Error"
+  CudaRuntime1.vcxproj -> F:\Stud\cuda\lb1\CudaRuntime1\x64\Debug\CudaRuntime1.exe

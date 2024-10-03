@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Stud\\cuda\\lb1\\CudaRuntime1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E82C7E9-B641-44E2-A196-083FA3077DD9}|CudaRuntime1\\CudaRuntime1.vcxproj|F:\\Stud\\cuda\\lb1\\CudaRuntime1\\CudaRuntime1\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4E82C7E9-B641-44E2-A196-083FA3077DD9}|CudaRuntime1\\CudaRuntime1.vcxproj|solutionrelative:CudaRuntime1\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "F:\\Stud\\cuda\\lb1\\CudaRuntime1\\CudaRuntime1\\kernel.cu",
+              "RelativeDocumentMoniker": "CudaRuntime1\\kernel.cu",
+              "ToolTip": "F:\\Stud\\cuda\\lb1\\CudaRuntime1\\CudaRuntime1\\kernel.cu",
+              "RelativeToolTip": "CudaRuntime1\\kernel.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-28T08:48:26.497Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
