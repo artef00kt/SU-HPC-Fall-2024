@@ -1,0 +1,67 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\x64\Debug\kernel.cu.obj "F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu" 
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(129): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(141): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(148): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(129): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(135): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(141): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(148): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 155)
+              variable "numBlocks" (declared at line 156)
+            goto Error;
+            ^
+  
+  kernel.cu
+  tmpxft_00001d28_00000000-7_kernel.cudafe1.cpp
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(107): warning C4018: <: несоответствие типов со знаком и без знака
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(156): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(156): warning C4244: аргумент: преобразование "double" в "unsigned int", возможна потеря данных
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(156): warning C4533: пропуск инициализации "numBlocks" из-за перехода "goto Error"
+  F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(156): note:  см. объявление "numBlocks"
+  F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(189): note:  см. объявление "Error"
+F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(155): warning C4533: пропуск инициализации "threadsPerBlock" из-за перехода "goto Error"
+  F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(155): note:  см. объявление "threadsPerBlock"
+  F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\CudaRuntime2\kernel.cu(189): note:  см. объявление "Error"
+  CudaRuntime2.vcxproj -> F:\Stud\cuda\LB2_VectorSum\CudaRuntime2\x64\Debug\CudaRuntime2.exe
