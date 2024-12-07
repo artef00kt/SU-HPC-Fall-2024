@@ -1,0 +1,73 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\x64\Debug\kernel.cu.obj "F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu" 
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(123): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMallocArray failed!"); goto Error; }
+                                                                                                   ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(125): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMemcpyToArray failed!"); goto Error; }
+                                                                                                     ^
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(150): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(156): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(123): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMallocArray failed!"); goto Error; }
+                                                                                                   ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(125): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMemcpyToArray failed!"); goto Error; }
+                                                                                                     ^
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(150): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+            goto Error;
+            ^
+  
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(156): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 162)
+              variable "numBlocks" (declared at line 164)
+            goto Error;
+            ^
+  
+  kernel.cu
+  tmpxft_00002734_00000000-7_kernel.cudafe1.cpp
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(22): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(23): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(24): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(94): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(95): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(96): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(124): warning C4996: 'cudaMemcpyToArray': объявлен deprecate
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(164): warning C4533: пропуск инициализации "numBlocks" из-за перехода "goto Error"
+  F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(164): note:  см. объявление "numBlocks"
+  F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(195): note:  см. объявление "Error"
+F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(162): warning C4533: пропуск инициализации "threadsPerBlock" из-за перехода "goto Error"
+  F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(162): note:  см. объявление "threadsPerBlock"
+  F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\CudaRuntime3\kernel.cu(195): note:  см. объявление "Error"
+     Создается библиотека F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\x64\Debug\CudaRuntime3.lib и объект F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\x64\Debug\CudaRuntime3.exp
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  CudaRuntime3.vcxproj -> F:\Stud\cuda\LB3_BilinearInterpolation\CudaRuntime3\x64\Debug\CudaRuntime3.exe

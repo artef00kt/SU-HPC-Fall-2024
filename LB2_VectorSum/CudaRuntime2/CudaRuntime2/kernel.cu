@@ -152,9 +152,6 @@ cudaError_t vectorSumWithCUDA(int* res, const int* vector, unsigned int size)
     cudaEventRecord(startTime, 0);
 
     // Launch a kernel on the GPU with one thread for each element.
-    dim3 threadsPerBlock(16, 16); // 16 * 16 = 256 threads in block
-    dim3 numBlocks(ceil(double(size) / threadsPerBlock.x), ceil(double(size) / threadsPerBlock.y));
-    // vectorSumKernel<<<numBlocks, threadsPerBlock>>> (dev_a, dev_b, size);
     vectorSumKernel <<<gridSize, blockSize>>> (dev_a, dev_b, size);
     vectorSumKernel <<<1, blockSize>>> (dev_b, dev_b, gridSize);
 

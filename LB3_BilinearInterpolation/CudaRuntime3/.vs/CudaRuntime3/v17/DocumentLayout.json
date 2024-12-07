@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Stud\\cuda\\LB3_BilinearInterpolation\\CudaRuntime3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74F7353B-25EF-4142-8873-D00D21448FE0}|CudaRuntime3\\CudaRuntime3.vcxproj|F:\\Stud\\cuda\\LB3_BilinearInterpolation\\CudaRuntime3\\CudaRuntime3\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{74F7353B-25EF-4142-8873-D00D21448FE0}|CudaRuntime3\\CudaRuntime3.vcxproj|solutionrelative:CudaRuntime3\\kernel.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kernel.cu",
+              "DocumentMoniker": "F:\\Stud\\cuda\\LB3_BilinearInterpolation\\CudaRuntime3\\CudaRuntime3\\kernel.cu",
+              "RelativeDocumentMoniker": "CudaRuntime3\\kernel.cu",
+              "ToolTip": "F:\\Stud\\cuda\\LB3_BilinearInterpolation\\CudaRuntime3\\CudaRuntime3\\kernel.cu",
+              "RelativeToolTip": "CudaRuntime3\\kernel.cu",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-04T16:08:48.093Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
