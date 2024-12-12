@@ -1,0 +1,133 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\bin\HostX64\x64" -x cu -rdc=true  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include"  -G   --keep-dir x64\Debug  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\x64\Debug\kernel.cu.obj "F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu" 
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(198): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) {fprintf((__acrt_iob_func(2)), "cudaSetDevice failed!  Do you have a CUDA-capable GPU installed?"); goto Error;}
+                                                                                                                                           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(203): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) {fprintf((__acrt_iob_func(2)), "cudaMalloc spheres failed!"); goto Error;}
+                                                                                                     ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(208): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMalloc lights failed!"); goto Error; }
+                                                                                                     ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(212): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMalloc failed!"); goto Error; }
+                                                                                              ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(220): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "randSpheres launch failed: %s\n", cudaGetErrorString(cudaStatus)); goto Error; }
+                                                                                                                                           ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(223): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaDeviceSynchronize returned error code %d after launching randSpheres!\n", cudaStatus); goto Error; }
+                                                                                                                                                                   ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(229): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "randLights launch failed: %s\n", cudaGetErrorString(cudaStatus)); goto Error; }
+                                                                                                                                          ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(232): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaDeviceSynchronize returned error code %d after launching randLights!\n", cudaStatus); goto Error; }
+                                                                                                                                                                  ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(198): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) {fprintf((__acrt_iob_func(2)), "cudaSetDevice failed!  Do you have a CUDA-capable GPU installed?"); goto Error;}
+                                                                                                                                           ^
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(203): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) {fprintf((__acrt_iob_func(2)), "cudaMalloc spheres failed!"); goto Error;}
+                                                                                                     ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(208): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMalloc lights failed!"); goto Error; }
+                                                                                                     ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(212): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaMalloc failed!"); goto Error; }
+                                                                                              ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(220): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "randSpheres launch failed: %s\n", cudaGetErrorString(cudaStatus)); goto Error; }
+                                                                                                                                           ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(223): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaDeviceSynchronize returned error code %d after launching randSpheres!\n", cudaStatus); goto Error; }
+                                                                                                                                                                   ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(229): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "randLights launch failed: %s\n", cudaGetErrorString(cudaStatus)); goto Error; }
+                                                                                                                                          ^
+  
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(232): warning #546-D: transfer of control bypasses initialization of:
+              variable "threadsPerBlock" (declared at line 235)
+              variable "numBlocks" (declared at line 236)
+        if (cudaStatus != cudaSuccess) { fprintf((__acrt_iob_func(2)), "cudaDeviceSynchronize returned error code %d after launching randLights!\n", cudaStatus); goto Error; }
+                                                                                                                                                                  ^
+  
+  kernel.cu
+  tmpxft_00005184_00000000-7_kernel.cudafe1.cpp
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(16): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(17): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(18): warning C4244: =: преобразование "float" в "ebmpBYTE", возможна потеря данных
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(236): warning C4533: пропуск инициализации "numBlocks" из-за перехода "goto Error"
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(236): note:  см. объявление "numBlocks"
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(256): note:  см. объявление "Error"
+F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(235): warning C4533: пропуск инициализации "threadsPerBlock" из-за перехода "goto Error"
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(235): note:  см. объявление "threadsPerBlock"
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\kernel.cu(256): note:  см. объявление "Error"
+  
+  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin\nvcc.exe" -dlink  -o x64\Debug\CudaRuntime4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin/crt" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib\x64" cudadevrt.lib cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudart.lib  -gencode=arch=compute_52,code=sm_52 -G  F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\CudaRuntime4\x64\Debug\kernel.cu.obj 
+  cudadevrt.lib
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  cudart.lib
+  kernel.cu.obj
+  CudaRuntime4.vcxproj -> F:\Stud\cuda\LB4_Raytracing\CudaRuntime4\x64\Debug\CudaRuntime4.exe
